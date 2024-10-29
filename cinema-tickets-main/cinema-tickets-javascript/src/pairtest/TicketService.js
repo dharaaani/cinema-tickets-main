@@ -90,7 +90,7 @@ export default class TicketService {
       return total + (prices[request.getTicketType()] * request.getNoOfTickets());
     }, 0);
   }
-
+  
   /**
    * Calculates the total number of seats to reserve based on the ticket requests.
    * @param {Array<TicketTypeRequest>} ticketTypeRequests - The ticket requests to calculate total seats for.
