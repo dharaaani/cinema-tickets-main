@@ -97,6 +97,7 @@ describe('TicketService', () => {
       new TicketTypeRequest('INVALID_TYPE', 1), // Invalid ticket type
     ];
 
+    
     expect(() => {
       ticketService.purchaseTickets(accountId, ...ticketRequests);
     }).toThrow(InvalidPurchaseException);
