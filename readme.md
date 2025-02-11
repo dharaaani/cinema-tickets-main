@@ -1,32 +1,32 @@
-# Pre-requisites
-- Install [Node.js](https://nodejs.org/en/)
+## Installation
 
-# Getting started
-- Clone the repository
-```
-git clone https://github.com/mayank1211/dwp-cinema-tickets.git
-```
-- Install dependencies
-```
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+
+```bash
 cd dwp-cinema-tickets
+```
+
+3. Install the dependencies using npm.
+
+```bash
 npm install
 ```
-- Build and run the project
-```
+
+## Running the Application
+
+To run the application and purchase cinema tickets, follow these steps:
+
+2. Customize the `ticketService` array with the desired ticket types and quantities.
+3. Save the file.
+
+```bash
 npm start
 ```
-  Output will be shown in terminal console
 
-- Test
-```
+
+## Running the Test Scripts
+
+```bash
 npm test
-```
-
-## Testing
-Unit tests are written in Jest with use of Babel `"presets": ["@babel/preset-env"]`
-
-```
-"@babel/preset-env": "^7.22.20",
-"jest": "28.1.1",
-"mocha": "10.0.0"
 ```
